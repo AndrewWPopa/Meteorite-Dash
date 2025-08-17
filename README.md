@@ -15,7 +15,6 @@ Visuals: Uses FEHImage for backgrounds and buttons, with colorful graphics and a
 
 Requirements
 
-Hardware: FEH Proteus with a touchscreen LCD.
 Libraries:
 FEHLCD.h
 FEHUtility.h
@@ -29,10 +28,9 @@ Assets: Image files for backgrounds and buttons (e.g., GalaxyBackground.png, Spa
 
 Installation
 
-Set up the FEH Proteus environment: Ensure the FEH Proteus development environment is configured.
-Copy the code: Place the main.cpp file in your project directory.
+Download exe file: Download the game.exe file
 Add image assets: Ensure all required image files (e.g., GalaxyBackground.png, Space.png, Lava.png, Mines.png, Desert.png, and button images) are available in the project directory.
-Compile and upload: Use the FEH Proteus compiler to build and upload the program to the device.
+Start: Start game.exe file in the folder with all the images to begin the game.
 
 
 How to Play
