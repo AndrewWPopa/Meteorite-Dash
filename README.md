@@ -29,6 +29,7 @@ Assets: Image files for backgrounds and buttons (e.g., GalaxyBackground.png, Spa
 Installation
 
 Download exe file: Download the game.exe file
+
 Add image assets: Ensure all required image files (e.g., GalaxyBackground.png, Space.png, Lava.png, Mines.png, Desert.png, and button images) are available in the project directory.
 Start: Start game.exe file in the folder with all the images to begin the game.
 
