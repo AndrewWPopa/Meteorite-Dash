@@ -1,5 +1,5 @@
-Meteorite Dash
-Overview
+Overview:
+
 Meteorite Dash is an interactive game developed for the FEH Proteus platform. The player navigates a character to avoid falling meteorites, with customizable map backgrounds and difficulty levels. The game features a menu driven interface with options to start the game, view credits, check statistics, read instructions, or quit.
 Features
 
@@ -13,28 +13,24 @@ Animated Credits: Credits scroll upward for a dynamic display.
 Visuals: Uses FEHImage for backgrounds and buttons, with colorful graphics and animations (e.g., explosion effect on collision).
 
 
-Requirements
+Required Libraries:
 
-Libraries:
-FEHLCD.h
-FEHUtility.h
-FEHImages.h
-FEHRandom.h
-math.h
+FEHLCD.h, FEHUtility.h, FEHImages.h, FEHRandom.h, math.h
 
 
-Assets: Image files for backgrounds and buttons (e.g., GalaxyBackground.png, SpaceButton.png, etc.).
+Assets:
+
+Image files for backgrounds and buttons (e.g., GalaxyBackground.png, SpaceButton.png, etc.).
 
 
-Installation
+Installation:
 
-Download exe file: Download the game.exe file
-
+Download exe file: Download the game.exe file.
 Add image assets: Ensure all required image files (e.g., GalaxyBackground.png, Space.png, Lava.png, Mines.png, Desert.png, and button images) are available in the project directory.
 Start: Start game.exe file in the folder with all the images to begin the game.
 
 
-How to Play
+How to Play:
 
 Main Menu: Select options using the touchscreen.
 Start: Choose a map and difficulty, then play the game.
@@ -45,13 +41,14 @@ Quit: Exit the game.
 
 
 Gameplay:
+
 Touch the left side of the screen to move the player left, or the right side to move right.
 Avoid falling meteorites to survive as long as possible.
 The game ends if a meteorite collides with the player, triggering an explosion animation.
 Game speed increases over time, making it more challenging.
 
 
-Code Structure
+Code Structure:
 
 Button Class: Handles button creation, drawing, and click detection.
 Meteorite Class: Manages meteorite generation, movement, and respawn logic.
@@ -60,14 +57,14 @@ Game Function: Core game loop handling player movement, meteorite updates, colli
 Menu Functions: main, MapSelect, SelectDifficulty, ShowCredits, ShowStats, ShowInstructions manage navigation and UI.
 
 
-Authors
+Authors:
 
 Andrew Popa: Primary developer, implemented core game logic, UI, and classes.
 Woojin Jeon: Contributed to the main menu implementation.
 Debugging Contributors: Johanan Abraham, Nicole Futoryansky.
 
 
-Notes
+Notes:
 
 The game uses a 320x240 screen resolution.
 Meteorite speed and size are randomized within defined ranges for varied gameplay.
